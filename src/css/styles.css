@@ -152,7 +152,7 @@ main p {
 
 
 #searchbar {
-    margin: 3rem 10% 1rem 10%;
+    margin: 1rem 10%;
     padding: 1rem;
     border-radius: 1rem;
     width: 80%;
@@ -218,7 +218,7 @@ td a {
 /*..........Festlegungen für Veranstaltungs- / Kursmuster..........*/
 
 
-h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, .flex-container, hr {
+h1.vTitel, p.schlagwort, p.datum, p.beschreibung, p.kUebersicht, p.sUebersicht, .flex-container, hr {
     /* top/bottom left/right */
     margin: 1rem 7.5%;
 }
@@ -243,7 +243,7 @@ p.beschreibung {
     padding: 1rem 0rem;
 }
 
-p.kUebersicht {
+p.kUebersicht, p.sUebersicht {
     padding: 2rem 0rem 0rem 0rem;
     text-transform: uppercase;
     font: bold italic 1rem/1 sans-serif;
